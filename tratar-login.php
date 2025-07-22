@@ -9,5 +9,7 @@ if(!empty($_POST['email']) && !empty($_POST['senha'])){
     $_SESSION['email'] = $email;
     $_SESSION['senha'] = $senha;
 
-    echo "Bem-vindo, " . $email;
+
 }
+
+?>
